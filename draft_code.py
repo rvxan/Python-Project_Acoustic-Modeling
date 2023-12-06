@@ -22,7 +22,7 @@ class RT60Analyzer:
 
     def load_file(self):
         file_path = filedialog.askopenfilename(
-            filetypes=[("WAV files", "*.wav"), ("MP3 files", "*.mp3"), ("AAC files", "*.aac")])
+            filetypes=[("WAV files", "*.wav"), ("MP3 files", "*.mp3")])
         if file_path:
             # Load and preprocess the audio file
             sample_rate, data = self.process_audio(file_path)

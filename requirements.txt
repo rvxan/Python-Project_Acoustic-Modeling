@@ -1,0 +1,14 @@
+Must be installed
+
+import os.path
+from tkinter import *
+from tkinter import ttk, filedialog
+import tkinter as tk
+from matplotlib.figure import Figure
+from pydub import AudioSegment
+import wave
+import matplotlib.pyplot as plt
+from scipy.io import wavfile
+from scipy.signal import welch
+from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg)
+import numpy as np

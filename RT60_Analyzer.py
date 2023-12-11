@@ -1,5 +1,4 @@
 import os.path
-import scipy
 from tkinter import *
 from tkinter import ttk, filedialog
 import tkinter as tk
@@ -7,7 +6,6 @@ from matplotlib.figure import Figure
 from pydub import AudioSegment
 import wave
 import matplotlib.pyplot as plt
-from scipy.fft import fft
 from scipy.io import wavfile
 from scipy.signal import welch
 from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg)
